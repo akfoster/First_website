@@ -1,5 +1,5 @@
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Karla', sans-serif;
 	color: #EAFFD6;
 	background: #99AAC8 url('img/blue_texture.jpg') repeat;
 }
@@ -7,6 +7,7 @@ body {
 a {
 	color: #BECFAE;
 	text-decoration: none;
+	font-size: 1.25em;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h2 {
 
 .btn {
 	color: #faf3bc;
-	background: #4fb69f url('img/btn_texture.jpg') no-repeat right top;
+	background: #102746 url('img/btn_texture.jpg') no-repeat right top;
 	padding: 15px 30px;
 	margin: 40px 0px;
 	border-radius: 25px;
@@ -63,7 +64,7 @@ ul.nav li a {
 	border: 8px solid #BECFAE;
 	width: 385px;
 	height: 360px;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 #copyright {
@@ -71,4 +72,10 @@ ul.nav li a {
 	padding: 10px 0px;
 	margin: 15px 0px;
 	text-align: center;
+}
+
+.logo {
+	width: 150px; 
+	height: 150px;
+	margin: 20px 0px 0px 0px;
 }
